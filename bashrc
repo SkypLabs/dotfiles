@@ -74,3 +74,12 @@ fi
 # --------------------------------------------------------------------
 
 PS1="\[\e[32m\][\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[32;47m\]\\$\[\e[m\] "
+
+# Tmux
+# --------------------------------------------------------------------
+
+# If tmux is installed.
+if command -v tmux > /dev/null 2>&1; then
+  # If no session is started, start a new session.
+  test -z "${TMUX}" && exec tmux
+fi
