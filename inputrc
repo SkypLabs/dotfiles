@@ -1,0 +1,5 @@
+# Disable bell ringing.
+set bell-style none
+
+# Use Vi editing mode.
+set editing-mode vi
