@@ -1,0 +1,7 @@
+# Text editors
+*.swp
+*~
+
+# Vim
+vim/spell
+.netrwhist
