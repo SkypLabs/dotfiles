@@ -12,6 +12,7 @@
     ~/.inputrc: bash/inputrc
     ~/.radare2rc: r2/radare2rc
     ~/.tmux.conf: tmux/tmux.conf
+    ~/.vimrc: vim/vimrc
 
 - shell:
   - [git submodule update --init --recursive, Installing Git submodules]
