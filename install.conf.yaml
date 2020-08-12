@@ -6,11 +6,11 @@
 - clean: ['~']
 
 - link:
-    ~/.bashrc:
-    ~/.bash_aliases:
-    ~/.gitconfig:
-    ~/.inputrc:
-    ~/.tmux.conf:
+    ~/.bashrc: bash/bashrc
+    ~/.bash_aliases: bash/bash_aliases
+    ~/.gitconfig: git/gitconfig
+    ~/.inputrc: bash/inputrc
+    ~/.tmux.conf: tmux/tmux.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing Git submodules]
