@@ -1,0 +1,7 @@
+e asm.describe=true
+e asm.syntax=intel
+e cfg.editor=vim
+e dbg.bep=main
+e prj.git=true
+e scr.color=true
+e scr.prompt.vi=true

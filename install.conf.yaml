@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      relink: true
+      force: true
+
+- clean: ['~']
+
+- link:
+    ~/.bashrc: bash/bashrc
+    ~/.bash_aliases: bash/bash_aliases
+    ~/.gitconfig: git/gitconfig
+    ~/.inputrc: bash/inputrc
+    ~/.radare2rc: r2/radare2rc
+    ~/.tmux.conf: tmux/tmux.conf
+    ~/.vimrc: vim/vimrc
+
+- shell:
+  - [git submodule update --init --recursive, Installing Git submodules]
