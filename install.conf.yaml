@@ -10,6 +10,7 @@
     ~/.bash_aliases: bash/bash_aliases
     ~/.gitconfig: git/gitconfig
     ~/.inputrc: bash/inputrc
+    ~/.radare2rc: r2/radare2rc
     ~/.tmux.conf: tmux/tmux.conf
 
 - shell:
