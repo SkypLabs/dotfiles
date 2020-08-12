@@ -1,0 +1,15 @@
+- defaults:
+    link:
+      relink: true
+      force: true
+
+- clean: ['~']
+
+- link:
+    ~/.bashrc:
+    ~/.bash_aliases:
+    ~/.inputrc:
+    ~/.tmux.conf:
+
+- shell:
+  - [git submodule update --init --recursive, Installing Git submodules]
