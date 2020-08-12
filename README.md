@@ -1,5 +1,7 @@
 # Dotfiles
 
+![Travis (.com) branch](https://img.shields.io/travis/com/SkypLabs/dotfiles/master?label=master&logo=travis) ![Travis (.com) branch](https://img.shields.io/travis/com/SkypLabs/dotfiles/develop?label=develop&logo=travis)
+
 This repository contains my dotfiles.
 
 The different configuration files are organised into topics, one folder per topic.
