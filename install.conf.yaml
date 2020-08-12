@@ -16,6 +16,7 @@
     ~/.radare2rc: r2/radare2rc
     ~/.tmux.conf: tmux/tmux.conf
     ~/.vimrc: vim/vimrc
+    ~/.vim/after: vim/after
     ~/.vim/pack: vim/pack
 
 - shell:
