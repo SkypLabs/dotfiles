@@ -1,0 +1,25 @@
+[user]
+	name = Paul-Emmanuel Raoul
+	email = skyper@skyplabs.net
+	signingkey = 5B89E3C83C9B3A08
+[core]
+	editor = vim
+	autocrlf = input
+[alias]
+	lg = log --decorate --all --oneline --graph
+	sd = diff --staged
+	ss = status
+	fa = fetch --all --tags --prune
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[gitflow "prefix"]
+	feature = feature/
+	bugfix = bugfix/
+	release = release/
+	hotfix = hotfix/
+	support = support/
+	versiontag = v
