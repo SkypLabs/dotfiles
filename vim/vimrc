@@ -1,0 +1,80 @@
+" Enable syntax highlighting.
+syntax enable
+
+" Display line numbers.
+" http://vim.wikia.com/wiki/Display_line_numbers
+set nu
+
+" Highlight current line.
+" http://vim.wikia.com/wiki/Highlight_current_line
+set cursorline
+
+" Highlight matching braces.
+" http://vim.wikia.com/wiki/Moving_to_matching_braces
+set showmatch
+
+" Enable the mouse.
+set mouse=a
+
+" Disable the bell sounds.
+set belloff=all
+
+" Display a counter of matching patterns when searching.
+set shortmess-=S
+
+" Indentation settings.
+" http://vim.wikia.com/wiki/Indenting_source_code
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+filetype indent plugin on
+
+" Scroll when the cursor gets within 3 characters of top/bottom edge
+" http://vim.wikia.com/wiki/Keep_your_cursor_centered_vertically_on_the_screen
+set scrolloff=3
+
+" Searching settings.
+" http://vim.wikia.com/wiki/Searching
+set incsearch
+set ignorecase
+set smartcase
+set hlsearch!
+
+" Enable command-line completion.
+" http://vim.wikia.com/wiki/Great_wildmode/wildmenu_and_console_mouse
+set wildmenu
+set wildmode=list:longest,list:full
+set wildignore=*.o,*.r,*.so,*.sl,*.tar,*.tgz,*.pyc
+
+" Show incomplete commands
+" https://www.hscripts.com/tutorials/vim-commands/showcmd.html
+set showcmd
+
+" Enable spell checking.
+" https://www.linux.com/learn/using-spell-checking-vim
+set spelllang=en,fr
+set spell
+set spellsuggest=5
+
+" Set UTF-8 as standard encoding
+" http://vim.wikia.com/wiki/Working_with_Unicode
+set encoding=utf-8
+
+" Set UNIX as the standard file type
+" http://vim.wikia.com/wiki/File_Format
+set ffs=unix,dos,mac
+
+" Switch between Vim window splits easily.
+" http://vim.wikia.com/wiki/Switch_between_Vim_window_splits_easily
+set wmh=0
+set wh=999
+map <C-J> <C-W>j<C-W>_
+map <C-K> <C-W>k<C-W>_
+nmap <silent> <C-H> :wincmd h<CR>
+nmap <silent> <C-L> :wincmd l<CR>
+
+" Remove automatically all trailing whitespace
+" when saving.
+" http://vim.wikia.com/wiki/Remove_unwanted_spaces
+autocmd BufWritePre * %s/\s\+$//e
