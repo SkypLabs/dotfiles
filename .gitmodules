@@ -11,3 +11,7 @@
 	url = https://github.com/neoclide/coc.nvim.git
 	branch = release
 	ignore = dirty
+[submodule "vim/pack/plugins/start/emmet-vim"]
+	path = vim/pack/plugins/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+	ignore = dirty
