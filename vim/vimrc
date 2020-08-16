@@ -54,7 +54,6 @@ set showcmd
 " Enable spell checking.
 " https://www.linux.com/learn/using-spell-checking-vim
 set spelllang=en,fr
-set spell
 set spellsuggest=5
 
 " Set UTF-8 as standard encoding
