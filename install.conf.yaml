@@ -5,6 +5,9 @@
 
 - clean: ['~']
 
+- create:
+  - ~/.vim
+
 - link:
     ~/.bashrc: bash/bashrc
     ~/.bash_aliases: bash/bash_aliases
