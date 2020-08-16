@@ -6,7 +6,7 @@
 - clean: ['~']
 
 - create:
-  - ~/.vim
+    - ~/.vim
 
 - link:
     ~/.bashrc: bash/bashrc
@@ -16,7 +16,9 @@
     ~/.radare2rc: r2/radare2rc
     ~/.tmux.conf: tmux/tmux.conf
     ~/.vimrc: vim/vimrc
+    ~/.vim/after: vim/after
     ~/.vim/ftplugin: vim/ftplugin
+    ~/.vim/pack: vim/pack
 
 - shell:
-  - [git submodule update --init --recursive, Installing Git submodules]
+    - [git submodule update --init --recursive, Installing Git submodules]
