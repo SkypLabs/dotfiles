@@ -2,3 +2,16 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "vim/pack/plugins/start/vim-tmux-navigator"]
+	path = vim/pack/plugins/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
+	ignore = dirty
+[submodule "vim/pack/plugins/start/coc-nvim"]
+	path = vim/pack/plugins/start/coc-nvim
+	url = https://github.com/neoclide/coc.nvim.git
+	branch = release
+	ignore = dirty
+[submodule "vim/pack/plugins/start/emmet-vim"]
+	path = vim/pack/plugins/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+	ignore = dirty
