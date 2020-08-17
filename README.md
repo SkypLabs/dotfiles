@@ -16,6 +16,9 @@ I use [Dotbot][dotbot] to automatically install my dotfiles:
 
 2. Run `cd ~/.dotfiles && ./install`
 
+The Vim plugin [coc.nvim][coc-nvim] needs a [Node.js][nodejs-download] runtime
+environment to function.
+
 ## Troubleshooting
 
 ### Vim
@@ -24,11 +27,14 @@ At the first launch, you will likely see the following message showing up:
 
     Warning: Cannot find word list "fr.latin1.spl" or "fr.ascii.spl"
 
-To install the missing word lists, use the `:set spell` command. You will be prompted to install them.
+To install the missing word lists, use the `:set spell` command. You will be
+prompted to install them.
 
 ## License
 
 [MIT][mit-license]
 
+ [coc-nvim]: https://github.com/neoclide/coc.nvim "coc.nvim Vim plugin"
  [dotbot]: https://github.com/anishathalye/dotbot "Dotbot project on GitHub"
  [mit-license]: https://opensource.org/licenses/MIT "MIT license"
+ [nodejs-download]: https://nodejs.org/en/download/ "Node.js download page"
