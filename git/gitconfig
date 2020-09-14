@@ -6,10 +6,13 @@
 	editor = vim
 	autocrlf = input
 [alias]
+	co = checkout
+	dw = diff --word-diff
+	fa = fetch --all --tags --prune
 	lg = log --decorate --all --oneline --graph
 	sd = diff --staged
+	sdw = diff --staged --word-diff
 	ss = status
-	fa = fetch --all --tags --prune
 [merge]
 	tool = vimdiff
 [diff]
