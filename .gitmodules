@@ -15,3 +15,6 @@
 	path = vim/pack/plugins/start/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
 	ignore = dirty
+[submodule "vim/pack/plugins/start/fugitive"]
+	path = vim/pack/plugins/start/fugitive
+	url = https://tpope.io/vim/fugitive.git
