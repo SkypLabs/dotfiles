@@ -17,6 +17,7 @@
     ~/.tmux.conf: tmux/tmux.conf
     ~/.vimrc: vim/vimrc
     ~/.vim/after: vim/after
+    ~/.vim/coc-settings.json: vim/coc-settings.json
     ~/.vim/ftdetect: vim/ftdetect
     ~/.vim/ftplugin: vim/ftplugin
     ~/.vim/pack: vim/pack
