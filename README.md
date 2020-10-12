@@ -17,7 +17,8 @@ I use [Dotbot][dotbot] to automatically install my dotfiles:
 2. Run `cd ~/.dotfiles && ./install`
 
 The Vim plugin [coc.nvim][coc-nvim] needs a [Node.js][nodejs-download] runtime
-environment to function.
+environment to function as well as the [npm][npm] or [yarn][yarn] package
+manager to download and install the coc extensions.
 
 ## Troubleshooting
 
@@ -38,3 +39,5 @@ prompted to install them.
  [dotbot]: https://github.com/anishathalye/dotbot "Dotbot project on GitHub"
  [mit-license]: https://opensource.org/licenses/MIT "MIT license"
  [nodejs-download]: https://nodejs.org/en/download/ "Node.js download page"
+ [npm]: https://www.npmjs.com/get-npm "npm download page"
+ [yarn]: https://yarnpkg.com/ "Yarn official website"
