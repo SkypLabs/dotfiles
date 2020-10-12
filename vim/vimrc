@@ -66,8 +66,6 @@ set ffs=unix,dos,mac
 
 " Switch between Vim window splits easily.
 " http://vim.wikia.com/wiki/Switch_between_Vim_window_splits_easily
-set wmh=0
-set wh=999
 map <C-J> <C-W>j<C-W>_
 map <C-K> <C-W>k<C-W>_
 nmap <silent> <C-H> :wincmd h<CR>
