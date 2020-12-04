@@ -27,6 +27,10 @@
       "settings": {}
     }
   },
+  "texlab.build.executable": "pdflatex",
+  "texlab.build.onSave": true,
+  "texlab.chktex.onEdit": true,
+  "texlab.chktex.onOpenAndSave": true,
   "python.linting.banditEnabled": true,
   "python.linting.flake8Enabled": true,
   "python.linting.pylintEnabled": true,
