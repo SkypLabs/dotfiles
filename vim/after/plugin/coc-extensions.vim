@@ -5,6 +5,7 @@ let g:coc_global_extensions = [
   \ 'coc-explorer',
   \ 'coc-html',
   \ 'coc-json',
+  \ 'coc-markdownlint',
   \ 'coc-pyright',
   \ 'coc-rls',
   \ 'coc-sh',
