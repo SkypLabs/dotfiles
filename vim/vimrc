@@ -51,6 +51,10 @@ set wildignore=*.o,*.r,*.so,*.sl,*.tar,*.tgz,*.pyc
 " https://www.hscripts.com/tutorials/vim-commands/showcmd.html
 set showcmd
 
+" Always display the status line with the full path of the current file.
+set laststatus=2
+set statusline+=%F
+
 " Enable spell checking.
 " https://www.linux.com/learn/using-spell-checking-vim
 set spelllang=en,fr
