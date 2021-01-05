@@ -6,11 +6,13 @@
 - clean: ['~']
 
 - create:
+    - ~/.config
     - ~/.vim
 
 - link:
     ~/.bashrc: bash/bashrc
     ~/.bash_aliases: bash/bash_aliases
+    ~/.config/starship.toml: starship/starship.toml
     ~/.gitconfig: git/gitconfig
     ~/.inputrc: bash/inputrc
     ~/.radare2rc: r2/radare2rc

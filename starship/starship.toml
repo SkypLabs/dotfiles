@@ -1,0 +1,47 @@
+# Configure the format of the prompt.
+format = "$all"
+
+# Timeout for starship to scan files (in milliseconds).
+scan_timeout = 10
+
+# Add a new line before the start of the prompt.
+add_newline = true
+
+[aws]
+symbol = " "
+
+[docker]
+symbol = " "
+
+[go]
+symbol = " "
+
+[java]
+symbol = " "
+
+[kubernetes]
+symbol = "ﴱ "
+
+[lua]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[openstack]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[terraform]
+symbol = "行"
