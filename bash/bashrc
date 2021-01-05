@@ -83,3 +83,9 @@ if command -v tmux > /dev/null 2>&1; then
   # If no session is started, start a new session.
   test -z "${TMUX}" && exec tmux
 fi
+
+# Starship
+# --------------------------------------------------------------------
+if command -v starship > /dev/null 2>&1; then
+  eval "$(starship init bash)"
+fi

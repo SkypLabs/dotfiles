@@ -1,0 +1,8 @@
+# Configure the format of the prompt.
+format = "$all"
+
+# Timeout for starship to scan files (in milliseconds).
+scan_timeout = 10
+
+# Add a new line before the start of the prompt.
+add_newline = true
