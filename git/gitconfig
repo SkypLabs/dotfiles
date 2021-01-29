@@ -26,3 +26,5 @@
 	hotfix = hotfix/
 	support = support/
 	versiontag = v
+[pull]
+	ff = only
