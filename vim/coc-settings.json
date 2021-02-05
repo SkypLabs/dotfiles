@@ -13,5 +13,6 @@
   },
   "python.autoComplete.addBrackets": true,
   "python.linting.banditEnabled": true,
-  "python.linting.pep8Enabled": true
+  "python.linting.pep8Enabled": true,
+  "python.pythonPath": "python3"
 }
