@@ -1,5 +1,17 @@
 {
-  "python.autoComplete.addBrackets": true,
+  "languageserver":{
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": [
+        "terraform",
+        "tf"
+      ],
+      "initializationOptions": {},
+      "settings": {}
+    }
+  },
   "python.linting.banditEnabled": true,
-  "python.linting.pep8Enabled": true
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "python3"
 }
