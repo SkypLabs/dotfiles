@@ -5,5 +5,6 @@ let g:coc_global_extensions = [
   \ 'coc-json',
   \ 'coc-pyright',
   \ 'coc-rls',
+  \ 'coc-tsserver',
   \ 'coc-yaml',
   \ ]
