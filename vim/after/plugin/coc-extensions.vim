@@ -1,5 +1,6 @@
 let g:coc_global_extensions = [
   \ 'coc-css',
+  \ 'coc-docker',
   \ 'coc-explorer',
   \ 'coc-html',
   \ 'coc-json',
