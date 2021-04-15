@@ -55,6 +55,7 @@ export GOBIN=$GOPATH/bin
 
 # Add locations to PATH.
 export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.cargo/bin # Rust
 export PATH=$PATH:~/codeql/codeql # CodeQL
 
 # Aliases
