@@ -1,5 +1,21 @@
 {
   "languageserver":{
+    "codeql": {
+      "command": "codeql",
+      "args": [
+        "execute",
+        "language-server",
+        "--check-errors",
+        "ON_CHANGE",
+        "-q"
+      ],
+      "filetypes": [
+        "codeql",
+        "ql"
+      ],
+      "initializationOptions": {},
+      "settings": {}
+    },
     "terraform": {
       "command": "terraform-ls",
       "args": ["serve"],
@@ -12,6 +28,7 @@
     }
   },
   "python.linting.banditEnabled": true,
+  "python.linting.flake8Enabled": true,
   "python.linting.pylintEnabled": true,
   "python.pythonPath": "python3"
 }

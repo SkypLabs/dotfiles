@@ -10,10 +10,10 @@ add_newline = true
 [aws]
 symbol = " "
 
-[docker]
+[docker_context]
 symbol = " "
 
-[go]
+[golang]
 symbol = " "
 
 [java]
