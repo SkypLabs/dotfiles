@@ -1,6 +1,6 @@
 # Dotfiles
 
-![Travis (.com) branch](https://img.shields.io/travis/com/SkypLabs/dotfiles/master?label=master&logo=travis) ![Travis (.com) branch](https://img.shields.io/travis/com/SkypLabs/dotfiles/develop?label=develop&logo=travis)
+[![Test](https://github.com/SkypLabs/dotfiles/actions/workflows/test.yml/badge.svg)](https://github.com/SkypLabs/dotfiles/actions/workflows/test.yml)
 
 This repository contains my dotfiles.
 
