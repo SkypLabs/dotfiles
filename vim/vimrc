@@ -30,7 +30,7 @@ set softtabstop=4
 set expandtab
 filetype indent plugin on
 
-" Scroll when the cursor gets within 3 characters of top/bottom edge
+" Scroll when the cursor gets within 3 characters of top/bottom edge.
 " http://vim.wikia.com/wiki/Keep_your_cursor_centered_vertically_on_the_screen
 set scrolloff=3
 
@@ -47,7 +47,7 @@ set wildmenu
 set wildmode=list:longest,list:full
 set wildignore=*.o,*.r,*.so,*.sl,*.tar,*.tgz,*.pyc
 
-" Show incomplete commands
+" Show incomplete commands.
 " https://www.hscripts.com/tutorials/vim-commands/showcmd.html
 set showcmd
 
@@ -60,11 +60,11 @@ set statusline+=%F
 set spelllang=en,fr
 set spellsuggest=5
 
-" Set UTF-8 as standard encoding
+" Set UTF-8 as standard encoding.
 " http://vim.wikia.com/wiki/Working_with_Unicode
 set encoding=utf-8
 
-" Set UNIX as the standard file type
+" Set UNIX as the standard file type.
 " http://vim.wikia.com/wiki/File_Format
 set ffs=unix,dos,mac
 
