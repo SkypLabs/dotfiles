@@ -1,3 +1,6 @@
+" Enable spell checking.
 set spell
-set textwidth=80
+
+" Enable text wrapping.
 set wrap
+set textwidth=80
