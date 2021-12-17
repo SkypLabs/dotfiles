@@ -91,3 +91,11 @@ fi
 if command -v starship > /dev/null 2>&1; then
   eval "$(starship init bash)"
 fi
+
+# Split SSH
+# --------------------------------------------------------------------
+SSH_VAULT_VM="vault"
+
+if [ "$SSH_VAULT_VM" != "" ]; then
+  export SSH_AUTH_SOCK="/home/user/.SSH_AGENT_$SSH_VAULT_VM"
+fi
