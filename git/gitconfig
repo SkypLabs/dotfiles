@@ -1,7 +1,7 @@
 [user]
 	name = Paul-Emmanuel Raoul
 	email = skyper@skyplabs.net
-	signingkey = 5B89E3C83C9B3A08
+	signingkey = AA73D4B7CDB8C0546B47F061063BB9E8C569B26A
 [core]
 	editor = vim
 	autocrlf = input
@@ -20,6 +20,10 @@
 	tool = vimdiff
 [difftool]
 	prompt = false
+[pull]
+	ff = only
+[gpg]
+	program = qubes-gpg-client-wrapper
 [gitflow "prefix"]
 	feature = feature/
 	bugfix = bugfix/
@@ -27,5 +31,3 @@
 	hotfix = hotfix/
 	support = support/
 	versiontag = v
-[pull]
-	ff = only
