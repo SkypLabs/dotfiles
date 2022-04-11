@@ -1,3 +1,6 @@
+" Set the leader key.
+let mapleader = ","
+
 " Enable syntax highlighting.
 syntax enable
 
