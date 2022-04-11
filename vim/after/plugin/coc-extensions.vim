@@ -10,6 +10,7 @@ let g:coc_global_extensions = [
   \ 'coc-pyright',
   \ 'coc-rls',
   \ 'coc-sh',
+  \ 'coc-snippets',
   \ 'coc-texlab',
   \ 'coc-tsserver',
   \ 'coc-yaml',
