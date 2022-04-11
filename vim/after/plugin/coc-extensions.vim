@@ -14,4 +14,5 @@ let g:coc_global_extensions = [
   \ 'coc-texlab',
   \ 'coc-tsserver',
   \ 'coc-yaml',
+  \ 'coc-yank',
   \ ]
