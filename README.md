@@ -28,11 +28,9 @@ manager to download and install the coc extensions.
 
 For example, to install the **FiraCode Nerd Font**:
 
-```raw
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
-unzip -d ~/.local/share/fonts/ ~/Downloads/FiraCode.zip
-fc-cache -fv ~/.local/share/fonts
-```
+    wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+    unzip -d ~/.local/share/fonts/ ~/Downloads/FiraCode.zip
+    fc-cache -fv ~/.local/share/fonts
 
 Then, it needs to be set as your terminal font.
 
