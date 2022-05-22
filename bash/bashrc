@@ -55,8 +55,12 @@ export GOBIN=$GOPATH/bin
 
 # Add locations to PATH.
 export PATH=$PATH:~/.local/bin
-export PATH=$PATH:~/.cargo/bin # Rust
 export PATH=$PATH:~/codeql/codeql # CodeQL
+
+# Import Cargo (Rust) env variables if any.
+if [ -f ~/.cargo/env ]; then
+  . ~/.cargo/env
+fi
 
 # Aliases
 # --------------------------------------------------------------------
