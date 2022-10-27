@@ -49,4 +49,4 @@ jobs:
       - name: Test Vim Configuration files
         run: |
           vim --version
-          vim -c 'so vim/vimrc'
+          vim -c 'so vim/vimrc' -c ':q!'
