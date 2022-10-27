@@ -35,3 +35,8 @@ jobs:
         run: |
           mkdir -p ~/dotfiles-install-dir
           HOME=~/dotfiles-install-dir ./install
+
+      - name: Test Bash Configuration files
+        run: |
+          bash --version
+          INPUTRC=bash/inputrc source bash/bashrc
