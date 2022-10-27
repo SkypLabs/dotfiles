@@ -36,6 +36,16 @@ Then, it needs to be set as your terminal font.
 
 ## Troubleshooting
 
+### coc.nvim extensions
+
+Installing or updating coc.nvim extensions can fail sometimes due to NPM cache
+issues. Force-cleaning the NPM cache may solve the problem:
+
+    npm cache clean --force
+    npm cache verify
+
+Once done, try to install or update the extensions again.
+
 ### Vim
 
 At the first launch, you will likely see the following message showing up:
