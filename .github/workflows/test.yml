@@ -45,3 +45,8 @@ jobs:
         run: |
           git --version
           git config --file=git/gitconfig -l
+
+      - name: Test Vim Configuration files
+        run: |
+          vim --version
+          vim -c 'so vim/vimrc'
