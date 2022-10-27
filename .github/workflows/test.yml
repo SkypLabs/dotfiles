@@ -40,3 +40,8 @@ jobs:
         run: |
           bash --version
           INPUTRC=bash/inputrc source bash/bashrc
+
+      - name: Test Git Configuration files
+        run: |
+          git --version
+          git config --file=git/gitconfig -l
