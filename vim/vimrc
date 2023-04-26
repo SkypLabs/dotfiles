@@ -85,3 +85,6 @@ autocmd BufWritePre * %s/\s\+$//e
 
 " Hide highlighted search matches.
 map <leader>h :noh<CR>
+
+" Toggle the spell checker.
+map <leader>s :set spell!<CR>
