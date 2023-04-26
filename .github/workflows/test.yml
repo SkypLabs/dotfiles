@@ -7,9 +7,27 @@ on:
     branches: [ 'develop' ]
 
 jobs:
+  is-duplicate:
+    name: Is Duplicate
+    runs-on: ubuntu-latest
+    outputs:
+      should_skip: ${{ steps.skip-check.outputs.should_skip }}
+    permissions:
+      actions: write
+      contents: read
+
+    steps:
+      - id: skip-check
+        name: Skip Check
+        uses: fkirc/skip-duplicate-actions@master
+        with:
+          paths_ignore: '["**.md"]'
+
   test-code:
     name: Test code
     runs-on: ${{ matrix.os }}
+    needs: is-duplicate
+    if: needs.is-duplicate.outputs.should_skip != 'true'
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest]
