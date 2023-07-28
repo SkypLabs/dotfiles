@@ -7,6 +7,7 @@
 
 - create:
     - ~/.config
+    - ~/.ssh
     - ~/.vim
 
 - link:
@@ -16,6 +17,7 @@
     ~/.gitconfig: git/gitconfig
     ~/.inputrc: bash/inputrc
     ~/.radare2rc: r2/radare2rc
+    ~/.ssh/config: ssh/config
     ~/.tmux.conf: tmux/tmux.conf
     ~/.vimrc: vim/vimrc
     ~/.vim/after: vim/after

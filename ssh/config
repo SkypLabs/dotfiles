@@ -1,0 +1,3 @@
+Host *
+    # Try to validate the host key from SSHFP DNS records.
+    VerifyHostKeyDNS yes
